@@ -1,0 +1,19 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+frontend/node_modules/
+frontend/dist/
+
+# AI agent rules, skills, and design scratch files
+.agents/
+.claude/
+.cursor/
+.gemini/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+DESIGN.md
+anti-slop/
