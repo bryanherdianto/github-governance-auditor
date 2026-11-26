@@ -107,4 +107,24 @@ npm run build
 
 ## UI Screenshots
 
-To capture screenshots for submission, open `http://localhost:5173` with both servers running, run an assessment on `https://github.com/openai/whisper`, and save screenshots under `docs/screenshots/`.
+### Initial Workspace
+![Initial compliance auditor workspace showing repository URL input, suggested prompts, and active governance controls](docs/screenshots/01-home.png)
+
+### Compliance Assessment (`openai/whisper`)
+![Full compliance report for openai/whisper showing PASS and FAIL control verdicts, evidence, and remediation](docs/screenshots/02-report.png)
+
+### Agent Tool-Calling Trace
+![Expanded GitHub REST API tool call trace showing autonomous evidence collection](docs/screenshots/03-tool-trace.png)
+
+### Assessing Another Repository
+![Compliance assessment run against another public GitHub repository without code changes](docs/screenshots/04-other-repo.png)
+
+### Exported JSON Report
+![Downloaded JSON compliance report output](docs/screenshots/05-json-report.png)
+
+### Exported Markdown Report
+![Downloaded Markdown compliance report output](docs/screenshots/06-markdown-report.png)
+
+## Video Demo
+
+Watch the full walkthrough on YouTube: [GitHub Compliance Agent Demo](https://youtu.be/Z9-xDR2Vq8U)
